@@ -60,3 +60,4 @@ build/
 !docs/**/*.md
 !CreditBeast_Spec_Scaffold/*.md
 !CreditBeast_Spec_Scaffold/**/*.md
+nul
