@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(dir /s /b \"C:\\Users\\Frant\\OneDrive\\Documents\\SE Developer Network\\Coding Projects\\Credit-Beast\\creditbeast\\apps\\web\\app\")",
+      "Bash(cat:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

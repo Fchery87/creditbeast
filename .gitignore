@@ -1,0 +1,62 @@
+# Node / Next.js artifacts
+apps/web/node_modules/
+apps/web/.next/
+apps/web/.turbo/
+apps/web/.vercel/
+apps/web/.swc/
+apps/web/dist/
+apps/web/out/
+apps/web/.eslintcache
+
+# Python / FastAPI artifacts
+apps/api/__pycache__/
+apps/api/.pytest_cache/
+apps/api/.mypy_cache/
+*.pyc
+*.pyo
+*.pyd
+*.pyc.*
+*.so
+*.egg-info/
+.eggs/
+
+# Virtual environments & local tooling
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+apps/api/.env
+apps/web/.env
+apps/web/.env.local
+
+# Logs & coverage
+*.log
+logs/
+coverage/
+.coverage
+coverage.xml
+htmlcov/
+pytest_cache/
+nyc-output/
+
+# IDE/editor junk
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+*.lockb
+
+# Markdown policy: keep only specific docs
+*.md
+!README.md
+!docs/*.md
+!docs/**/*.md
+!CreditBeast_Spec_Scaffold/*.md
+!CreditBeast_Spec_Scaffold/**/*.md
